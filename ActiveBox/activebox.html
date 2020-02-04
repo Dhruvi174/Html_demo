@@ -3,7 +3,7 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <title>ActiveBox</title>
 <style>
@@ -14,6 +14,46 @@
         transform: translate(-50%, -50%);
         color: aliceblue;
     }
+    .whitespace{
+    margin: 100px;
+}
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+
+    }
+    .navbar{
+        width: auto;
+        position:absolute;
+        top:8px;
+        left: 450px;
+    }
+    .fbg{
+    background-color: rgb(22, 22, 68);
+    background-attachment: fixed;
+    color: aliceblue;
+}
+    .fbg1{
+        background-color:rgb(11, 9, 27);
+    background-attachment: fixed;
+    color: aliceblue;
+
+    }
+
+    
 </style>
 
 
@@ -21,8 +61,9 @@
 <body>
 
     <!-- Navigation -->
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top ">
+    <img class="container">
+    <img src="img/banner.jpg" alt="banner" width="100%"> <img />
+    <nav class="navbar navbar-expand-lg  static-top ">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="">
@@ -51,89 +92,151 @@
             </div>
         </div>
     </nav>
+    <div class="centered">
+        <h1>
+            <p> YOUR FAVORITE ONE PAGE</p>
+            <p> MULTI PURPOSE TEMPLATE</p>
+        </h1>
+        <h6>
+            <p> Loren ipsum dolor sit amet,consectetur adipiscing elit. Praesent commodo cursus magna vel
+                scelerisque nisl consectetur et.
+            </p>
+        </h6>
 
+        <button type="button" onclick="alert('Hello')"
+            style="color: white;background-color: tomato; position: absolute;">Find Out More</button>
 
-
-    <img class="container">
-    <img src="img/banner.jpg" alt="Snow" >  <img/>
-        <div class="centered">
-            <h1>
-                <p> YOUR FAVORITE ONE PAGE</p>
-                <p> MULTI PURPOSE TEMPLATE</p>
-            </h1>    
-            <h6>
-                <p> Loren ipsum dolor sit amet,consectetur adipiscing elit. Praesent commodo cursus magna vel
-                    scelerisque nisl consectetur et.
-                </p>
-            </h6>
-
-            <button type="button"  onclick="alert('Hello')" style="color: white;background-color: tomato; position: absolute;">Find Out More</button>
-
-        </div>
+    </div>
     </img>
 
 
-    <footer>
-        <!-- Footer -->
-        <footer class="page-footer font-small fbg mdb-color pt-4" id="contact">
+    <!--- main contain -->
+    <tr>
+        <td style="padding-left: 50px">
+        <h5>
+        <center>CLEAN CODE</center>
+        </h5>
+        <p>
+        structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition
+        </p>
+        </td>
+        <td style="padding-left: 50px">
+        <h5>
+        <center>READY TO SHIP</center>
+        </h5>
+        <p>
+        structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition
+        </p>
+        </td>
+        <td style="padding-left: 50px">
+        <h5>
+        <center>DOWNLOAD FOR FREE</center>
+        </h5>
+        <p>
+        structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition
+        </p>
+        </td>
+        </tr>
+    
 
-            <!-- Footer Links -->
-            <div class="container text-center text-md-left">
 
-                <!-- Footer links -->
-                <div class="row text-center text-md-left mt-3 pb-3">
 
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">LOCATION</h6>
-                        <br>
-                        <p >3481 Melrose Place</p>
-                        <p > Beverly  Hills,CA 90210
-                        </p>
-                    </div>
-                    <!-- Grid column -->
+    <!-- image -->
 
-                    <hr class="w-100 clearfix d-md-none">
-
-                    <hr class="w-100 clearfix d-md-none">
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">SHARE WITH LOVE</h6>
-                        <p class="text-center">
-                            <!-- Add font awesome icons -->
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-
-                        </p class="text-center">
-                    </div>
-                    <hr class="w-100 clearfix d-md-none">
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">ABOUT ACTIVEBOX</h6>
-                        <p  class="text-center">
-                            Cras justo odio,dapibus ac facllisit in ,egestas 
-                            <p  class="text-center">
-                            quam.Donec ullamcorper nulla non metor auctor fringilla.
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer -->
-        <div class="container-fulid p-3">
-            <div class="text-center"> 
-                 Copyright © 2015: ActiveBox.All Right Reserved 
-                 <br> Made with by Dhruvi Desai.
-            </div>            
+    <div class="row">
+        <div class="column">
+            <img src="img/work-1.jpg" alt="Snow" style="width:100%">
         </div>
-    </div>                                   
-
-    </footer>
-
-    <div>
-        
+        <div class="column">
+            <img src="img/work-2.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/work-3.jpg" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/work-4.jpg" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/work-5.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/work-6.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/work-7.jpg" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="img/work-8.jpg" alt="Mountains" style="width:100%">
+        </div>
+       
     </div>
 
 
+    <div class="whitespace"></div>
+    <!--------------About--------------------->
+
+    <section class="text-justify" id="about">
+        <h3 class="text-center">Are You Ready to Start? Download Now For Free!</h3>
+        <br/>
+        <div class="container , text-center">
+            <p>
+                FUSCE DAPIBUS, TELLUS AC CURSUS COMMODO</p>
+
+        <button type="btn"  onclick="alert('Hello')"
+            style="color: white;background-color: tomato; position: relative; ">download for free</button>
+        </div>
+    </section>
+
+    <div class="whitespace"></div>
+
+    <!--------------About end --------------------->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color pt-4 fbg1" id="contact">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Footer links -->
+            <div class="row text-center text-md-left mt-3 pb-3 fbg1">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">LOCATION</h6>
+                    <p>3481 Melrose Place<br>
+                        Beverly Hills, CA 90210</p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <hr class="w-100 clearfix d-md-none">
+                <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">SHARE WITH LOVE</h6>
+                    <p>
+                        <a href="https://www.facebook.com/" ><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;
+                        <a href="#about" ><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+                        <a href="#about" ><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+                        <a href="#about" ><i class="fa fa-google-plus"></i></a>
+                    </p>
+                </div>
+                <hr class="w-100 clearfix d-md-none">
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">ABOUT ACTIVEBOX</h6>
+                    <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget <br> quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+    <div class="container-fulid  fbg p-3">
+        <div class="text-center"> 
+             Copyright © 2019:ActiveBox. All Rights Reserved 
+             <br> Made with <i class="fa fa-heart pulse"></i> by Dhruvi Desai.
+        </div>            
+    </div>
+</div>
 
 
-    
 </body>
