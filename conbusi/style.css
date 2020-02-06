@@ -60,6 +60,15 @@ h1{padding-top: 150px;
 h3{
   text-align: center;
 }
+.info-banner1 { 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/about/counter.png");
+  color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  margin: auto;
+}
 
 .info-banner  { 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/banner/info_banner.png");
@@ -69,7 +78,15 @@ h3{
   background-size: cover;
   padding: 100px;
   margin: auto;
-  
+}
+.info-banner2  { 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/banner/testmonial.png");
+  color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  margin: auto;
 }
 .info-btn{
   background-color: cornflowerblue;

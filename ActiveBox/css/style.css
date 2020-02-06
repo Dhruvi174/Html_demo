@@ -1,40 +1,42 @@
 body {
 font-family: 'Open Sans', sans-serif;
   }
+
+  .container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  h1{padding-top: 150px;
+  }
+  
+  .banner-image {
+    background-image: url('images/banner.png');
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    z-index: -1;
+  }
+  .banner-btn, .navbar-btn{
+    border-radius: 30px;
+  }
+  
+  .nav-link{
+    color: white;
+  }
+  
   .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: aliceblue;
-    text-align: center;
-}
-
-.imgban{
-    width: 100%;
-}
-* {
-    box-sizing: border-box;
-}
-
-.column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-}
-
-.btn{
-    color: white;
-    background-color: tomato;
-    position: absolute;
-}
-
-.navbar{
-    width: auto;
-    position:absolute;
-    top:8px;
-    left: 450px;
-}
+  }
+  
+  
 .fbg{
 background-color: rgb(22, 22, 68);
 background-attachment: fixed;
