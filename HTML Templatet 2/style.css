@@ -1,0 +1,102 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1{padding-top: 150px;
+}
+
+.banner-image {
+  background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),  url('img/case/banner_2.png');
+  height: 450px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 0px;
+  z-index: -1;
+}
+.banner-btn, .navbar-btn{
+  border-radius: 30px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* case study start */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.card-title {
+  color: grey;
+}
+/* case study end */
+
+/* footer start */
+.footer-text {
+  color: grey;
+  font-size: 13px;
+}
+/* footer end */
+/* case study start */
+/* case study start */
+/* case study start */
+h3{
+  text-align: center;
+}
+
+.info-banner  { 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/banner/info_banner.png");
+  color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  margin: auto;
+  
+}
+.info-btn{
+  background-color: cornflowerblue;
+  color: #ffffff;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
