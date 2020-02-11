@@ -16,8 +16,6 @@ body {
 
 /*.navbar {
   flex-direction:row;
-  
-  
 }*/
 .banner-image {
   background-image:linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%),  url('C:\\Users\\DESAI\\Desktop\\dd\\Peaas_work\\Html_demo\\conbusi\\images\\banner\\banner_2.png');
@@ -49,21 +47,103 @@ h1{padding-top: 150px;
   margin: 40px;
 }
 
+.svg_icon1{
+  position: center;
+  border-radius:100px;
+  background: linear-gradient(to bottom, #6122f7 0%, #bfe7f1 100%);
+  height: 80px;
+  width: 80px;
+  padding: 20px;
+  margin: 40px 40px 40px 80px;
+}
+.svg_icon2{
+  position: center;
+  border-radius:100px;
+  background: linear-gradient(to bottom, #37df53 0%, #65db41 100%);
+  height: 80px;
+  width: 80px;
+  padding: 20px;
+  margin: 40px 40px 40px 80px;
+}
+.svg_icon3{
+  position: center;
+  border-radius:100px;
+  background: linear-gradient(to bottom, #f58013 0%, #ee842c 100%);
+  height: 80px;
+  width: 80px;
+  padding: 20px;
+  margin: 40px 40px 40px 80px;
+}
+.svg_icon4{
+  position: center;
+  border-radius:100px;
+  background: linear-gradient(to bottom, #6213f5 0%, #de2cee 100%);
+  height: 80px;
+  width: 80px;
+  padding: 20px;
+  margin: 40px 40px 40px 80px;
+}
+.svg_icon5{
+  position: center;
+  border-radius:100px;
+  background: linear-gradient(to bottom, #6122f7 0%, #bfe7f1 100%);
+  height: 80px;
+  width: 80px;
+  padding: 20px;
+  margin: 40px 40px 40px 80px;
+}
+.svg_icon6{
+  position: center;
+  border-radius:100px;
+  background: linear-gradient(to bottom, #db13f5 0%, #2c2fee 100%);
+  height: 80px;
+  width: 80px;
+  padding: 20px;
+  margin: 40px 40px 40px 80px;
+}
 .icon-card{
   width: 100%;
-  border: 1px solid rgb(196, 196, 196);
+  border: 1px solid rgb(216, 214, 214);
   margin: 20px;
   text-align: center;
+  padding-bottom: 50px;
+}
+.quote_icon{
+  margin-bottom: 30px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
+  margin: 30px;
+  border-radius: 10px;
 }
-
+.card-text{
+  margin: 20px;
+}
+.ico-text{
+  color: gray;
+  font-size:small ;
+}
 .card-title {
   color: grey;
 }
+.case-btn{
+  border-radius: 30px;
+  padding: 5px 30px 5px 30px;
+  text-align: center;
+  background: none;
+  border: 1px solid rgb(84, 84, 230);
+  color: blue;
+  margin:50px 80px 50px 500px;
+}
+.border-bottom{
+  border-bottom: 1px solid rgb(151, 151, 151);
+  margin:auto;
+}
 
+.info2-text{
+  margin-top:20px ;
+}
 h3{
   text-align: center;
 }
@@ -77,7 +157,7 @@ h3{
 }
 
 .info-banner1{ 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:\\Users\\DESAI\\Desktop\\dd\\Peaas_work\\Html_demo\\conbusi\\images\\about\\counter.png");
+  background-image: linear-gradient(rgba(0, 29, 56,0.5), rgba(20, 29, 56,0.5)), url("C:\\Users\\DESAI\\Desktop\\dd\\Peaas_work\\Html_demo\\conbusi\\images\\about\\counter.png");
 }
 .info-banner  { 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:\\Users\\DESAI\\Desktop\\dd\\Peaas_work\\Html_demo\\conbusi\\images\\banner\\info_banner.png");
